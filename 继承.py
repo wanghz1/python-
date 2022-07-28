@@ -26,6 +26,6 @@ class Information_two(Information):  # 子类
         super().__init__(name, age)  # super：把父类和子类关联起来
 
 
-my_information = Information_two('王怀志', '22')  # 创建实例
+my_information = Information_two('王', '22')  # 创建实例
 my_information.rw_name()  # 调用父类实例方法
 my_information.rw_age()  # 调用父类实例方法
